@@ -1,0 +1,240 @@
+/* 全ての要素に対する余白初期値設定 */
+body,
+h1,h2,h3,h4,h5,h6,
+p,ul,ol,dl,dt,dd,li,
+table,th,td,
+form,select,option,input
+address,pre,strong,em,iframe,img{
+	margin:0;
+	padding:0;
+	font-size:100%;
+	border:0;
+}
+
+/* デフォルト文字設定 */
+body{
+/* 	color:#666666; */
+	background:#f0faf8/*#f0f8ff */;
+	font-family:MＳ ゴシック/* sans-serif */;
+	font-family:'Lucida Grande',
+ 		    'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3',
+		     Meiryo, メイリオ, sans-serif;
+	font-size:16px;
+/*	*font-size:small; */
+	line-height:1.4;
+}
+
+/* リストマーカーを非表示 */
+ul,ol{
+	list-style-type:none;
+}
+
+/* テーブルセルのボーダーの設定 */ 
+table {
+	border-collapse: collapse; 
+	border-spacing: 0;
+}
+
+#header {
+	padding:10px;
+	background-image:url(../img/head1.jpg);
+/*	background:#e6e6e6; */
+}
+
+#header .inner{
+	width:940px;
+	margin:0 auto;
+	overflow:hidden;
+	position:relative;
+}
+
+#logo{
+	position:absolute;
+	left:0;
+	top:50%;
+	margin-top:-26px;
+}
+
+#info {
+	float:right;
+	width:25em;
+	padding:10px;
+	background:#fff;
+	border:#ccc 1px solid;
+}
+
+#info dt {
+	clear:left;
+	float:left;
+	width:6em;
+}
+
+
+/* グローバルナビゲーション
+---------------------------*/
+#gnav{
+	background:#00c4ab;
+}
+
+#gnav ul{
+	width:940px;
+	margin:0 auto;
+	border-right:#fff 1px solid;
+	overflow:hidden;
+}
+
+#gnav li{
+	float:left;
+	width:155px;
+	border-left:#fff 1px solid;
+}
+
+#gnav a{
+	display:block;
+	padding:10px 0;
+	text-align:center;
+	text-decoration:none;
+	color:#fff;
+}
+
+#gnav a:hover{
+	/* background:#cce739; */
+	background:#839a85;
+	/* background:#bedec1; */
+}
+
+#gnav a.selected{
+	background:#fff;
+	color:#00c4ab;
+	font-weight:bold;
+}
+
+
+/* ------------------------- */
+#main {
+	width:940px;
+	margin:0 auto;
+	overflow:hidden;
+	position:relative;
+}
+
+#main h2 {
+/* 	color:#6fbb9a; */
+	color:#ffffff;
+	font-size:150%;
+/*	border:#94c8b1 1px dotted; */
+	border-left:#d0e35b 10px solid;
+	padding:5px 20px;
+	margin: 25px 10px;
+	margin-bottom:0;
+	background:#92a19e
+}
+
+#main p {
+	margin: 10px 25px;
+	padding:5px 20px;
+}
+
+#main dt {
+	margin: 0px 25px;
+	padding:2px 20px;
+}
+
+#main dd {
+	/* float:left; */
+	margin: 0px 25px;
+	padding:2px 40px;
+}
+
+#main table {
+	width: 95%;
+	border: none;
+	margin: 25px 25px 1em; 
+}
+
+#main tr {
+	border-top: solid 1px #ddd;
+}
+
+#main th {
+	font-weight: normal;
+	background: #f4f4f4;
+	text-align: left;
+	vertical-align: top;
+	padding: 18px 15px;
+	white-space: nowrap;
+}
+
+#main td {
+	background: #fff;
+	padding: 18px 15px;
+}
+
+#main #member table {
+	width: 95%;
+	border:solid 1px #ddd;
+	margin: 25px 25px;	
+}
+
+#main #member tr {
+	border-top: solid 1px #ddd;
+}
+
+#main #member th {
+	font-weight: normal;
+	background: #f4f4f4;
+	text-align: left;
+	vertical-align: top;
+	border:solid 1px #ddd;
+	padding: 10px 5px;
+	white-space: nowrap;
+}
+#main #member td {
+	background: #fff;
+	border:solid 1px #ddd;
+	padding: 10px 5px;
+}
+
+#main #member2 table {
+	width: 95%;
+	border:solid 1px #ddd;
+	margin: 25px 25px;	
+}
+
+#main #member2 tr {
+	border-top: solid 1px #ddd;
+}
+
+#main #member2 th {
+	font-weight: normal;
+	background: #f4f4f4;
+	text-align: left;
+	vertical-align: top;
+	border:solid 1px #ddd;
+	padding: 5px 5px;
+	white-space: nowrap;
+}
+#main #member2 td {
+	background: #fff;
+	border:solid 1px #ddd;
+	padding: 5px 5px;
+}
+
+
+
+/* フッター
+---------------------------*/
+#footer{
+	padding:10px 0;
+	background:#e6e6e6;
+}
+
+#footer .inner{
+	width:940px;
+	margin:0 auto;
+}
+
+#footer #copyright {
+	font-size:small;
+	text-align:right;
+}

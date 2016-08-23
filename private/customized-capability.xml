@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<devices>
+   <version>1.0</version>
+   <device>
+      <CustomerID>9051</CustomerID>
+      <PromotionArea visible="false"/>
+      <SupportZone>
+         <SupportURL>http://www.sony.jp/support/tablet/</SupportURL>
+      </SupportZone>
+   </device>
+</devices>
