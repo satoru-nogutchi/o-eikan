@@ -1,4 +1,4 @@
-/* ‘S‚Ä‚Ì—v‘f‚É‘Î‚·‚é—]”’‰Šú’lİ’è */
+/* å…¨ã¦ã®è¦ç´ ã«å¯¾ã™ã‚‹ä½™ç™½åˆæœŸå€¤è¨­å®š */
 body,
 h1,h2,h3,h4,h5,h6,
 p,ul,ol,dl,dt,dd,li,
@@ -11,25 +11,25 @@ address,pre,strong,em,iframe,img{
 	border:0;
 }
 
-/* ƒfƒtƒHƒ‹ƒg•¶šİ’è */
+/* ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆæ–‡å­—è¨­å®š */
 body{
 /* 	color:#666666; */
 	background:#f0faf8/*#f0f8ff */;
-	font-family:M‚r ƒSƒVƒbƒN/* sans-serif */;
+	font-family:Mï¼³ ã‚´ã‚·ãƒƒã‚¯/* sans-serif */;
 	font-family:'Lucida Grande',
- 		    'Hiragino Kaku Gothic ProN', 'ƒqƒ‰ƒMƒmŠpƒS ProN W3',
-		     Meiryo, ƒƒCƒŠƒI, sans-serif;
+ 		    'Hiragino Kaku Gothic ProN', 'ãƒ’ãƒ©ã‚®ãƒè§’ã‚´ ProN W3',
+		     Meiryo, ãƒ¡ã‚¤ãƒªã‚ª, sans-serif;
 	font-size:16px;
 /*	*font-size:small; */
 	line-height:1.4;
 }
 
-/* ƒŠƒXƒgƒ}[ƒJ[‚ğ”ñ•\¦ */
+/* ãƒªã‚¹ãƒˆãƒãƒ¼ã‚«ãƒ¼ã‚’éè¡¨ç¤º */
 ul,ol{
 	list-style-type:none;
 }
 
-/* ƒe[ƒuƒ‹ƒZƒ‹‚Ìƒ{[ƒ_[‚Ìİ’è */ 
+/* ãƒ†ãƒ¼ãƒ–ãƒ«ã‚»ãƒ«ã®ãƒœãƒ¼ãƒ€ãƒ¼ã®è¨­å®š */ 
 table {
 	border-collapse: collapse; 
 	border-spacing: 0;
@@ -70,7 +70,7 @@ table {
 }
 
 
-/* ƒOƒ[ƒoƒ‹ƒiƒrƒQ[ƒVƒ‡ƒ“
+/* ã‚°ãƒ­ãƒ¼ãƒãƒ«ãƒŠãƒ“ã‚²ãƒ¼ã‚·ãƒ§ãƒ³
 ---------------------------*/
 #gnav{
 	background:#00c4ab;
@@ -222,7 +222,7 @@ table {
 
 
 
-/* ƒtƒbƒ^[
+/* ãƒ•ãƒƒã‚¿ãƒ¼
 ---------------------------*/
 #footer{
 	padding:10px 0;
