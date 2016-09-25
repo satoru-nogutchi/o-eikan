@@ -135,6 +135,12 @@ table {
 	padding:5px 20px;
 }
 
+#main p#morebig {
+	/* font-weight: bold; */
+	font-size: 18px;
+
+}
+
 #main dt {
 	margin: 0px 25px;
 	padding:2px 20px;
