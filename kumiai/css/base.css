@@ -111,8 +111,20 @@ table {
 
 
 /* ------------------------- */
+#top {
+	width:960px;
+	margin:0 auto;
+	overflow:hidden;
+	position:relative;
+}
+#top p {
+	margin: 10px 0px;
+	padding:5px 20px;
+	/* font-weight: bold; */
+	font-size: 18px;
+}
 #main {
-	width:940px;
+	width:960px;
 	margin:0 auto;
 	overflow:hidden;
 	position:relative;
@@ -135,15 +147,10 @@ table {
 	padding:5px 20px;
 }
 
-#main p#morebig {
-	/* font-weight: bold; */
-	font-size: 18px;
-
-}
-
 #main dt {
 	margin: 0px 25px;
 	padding:2px 20px;
+	text-decoration: underline;
 }
 
 #main dd {
